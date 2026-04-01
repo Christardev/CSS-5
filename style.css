@@ -4,12 +4,14 @@
 }
 body {
   height: 100%;
-  background-color: f0f0f0;
+  background-color: #2eac6d;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
 .header {
 }
 .header_nav {
-  background-color: rgb(255, 255, 255);
+  background-color: aliceblue;
   display: flex;
   justify-content: space-between;
   padding: 1.5rem;
@@ -90,10 +92,10 @@ body {
   border-radius: 12px;
 }
 .cv_btn {
-  background-color: darkmagenta;
+  background-color: aliceblue;
 }
 .contact_btn {
-  border: 2px solid darkmagenta;
+  border: 2px solid aliceblue;
   background-color: #2eac6d;
 }
 .btns {
@@ -108,7 +110,7 @@ body {
   position: relative;
 }
 .round_section {
-  background-color: rgb(234, 227, 227);
+  background-color: aliceblue;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -134,7 +136,7 @@ body {
   text-align: left;
 }
 .line_1 {
-  background-color: darkmagenta;
+  background-color: #1f9cf0;
   width: 2px;
   height: 40px;
   position: absolute;
@@ -142,12 +144,15 @@ body {
   left: 300px;
 }
 .line_2 {
-  background-color: darkmagenta;
+  background-color: #1f9cf0;
   width: 2px;
   height: 40px;
   position: absolute;
   top: 10px;
   right: 290px;
+}
+.sec_me {
+  background-color: white;
 }
 .me {
   display: flex;
@@ -156,7 +161,7 @@ body {
 .me_profile {
   width: 300px;
   height: 286.3px;
-  background-color: darkmagenta;
+  background-color: #1f9cf0;
   position: relative;
 }
 .me_profile img {
@@ -170,10 +175,10 @@ body {
   gap: 7px;
 }
 .me_intro_sec h3 {
-  color: darkmagenta;
+  color: #1f9cf0;
 }
 .highlight_color {
-  color: darkmagenta;
+  color: #1f9cf0;
 }
 .me_intro_sec h1 {
 }
@@ -182,7 +187,7 @@ body {
 .lines {
   width: 70px;
   height: 2px;
-  background-color: darkmagenta;
+  background-color: #1f9cf0;
 }
 .top_a {
   top: -0.5rem;
@@ -204,7 +209,7 @@ body {
 .lines_2 {
   width: 2px;
   height: 70px;
-  background-color: darkmagenta;
+  background-color: #1f9cf0;
 }
 
 .top_a_2 {
@@ -350,14 +355,92 @@ body {
   gap: 20px;
 }
 .contact_container {
-  padding: 3rem 6rem;
+  padding: 3rem 12rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 30px;
+  grid-template-rows: auto 1fr auto;
 }
-
-.form_content {
+.form p {
+  padding: 5px;
+}
+.form {
   display: grid;
   gap: 0;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
+}
+label {
+  color: black;
+}
+input,
+textarea {
+  border: 1px solid black;
+  background-color: aliceblue;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
+}
+input {
+  padding: 5px;
+}
+.input {
+  display: flex;
+  gap: 5px;
+}
+.contact {
+  background-color: aliceblue;
+}
+.send_btn {
+  padding: 10px 12px;
+  width: fit-content;
+  border-radius: 6px;
+  border: 0;
+  background-color: #2eac6d;
+  font-size: 14px;
+}
+.call {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  gap: 10px;
+  align-items: center;
+}
+.call img {
+  width: 40px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+}
+.text h3 {
+  font-size: 16px;
+}
+.text p {
+  font-size: 10px;
+}
+.contact_grid {
+  display: grid;
+  gap: 10px;
+}
+.contact_icon {
+  background-color: white;
+  padding: 5px;
+  border-radius: 50%;
+}
+footer {
+  padding: 30px;
+  text-align: center;
+  background-color: #2eac6d;
+  color: white;
+}
+.footer_grid {
+  display: grid;
+  gap: 10px;
+}
+.list_icons {
+}
+.icons_list {
+  width: 30px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 50%;
 }
