@@ -6,16 +6,16 @@
     <link rel="stylesheet" href="style.css" />
     <title>Christar | Portfolio v.1</title>
   </head>
-  <body>
+  <body id="home">
     <header class="header">
       <nav class="header_nav">
         <img class="header_nav-logo" src="./media/dev.png" alt="" />
         <ul class="header_nav-ul">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About Me</a></li>
-          <li><a href="#">Tools</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#tools">Tools</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -89,7 +89,7 @@
             <div class="lines_2 bottom_a_2"></div>
             <!-- <div class="lines_2 bottom_b_2"></div> -->
           </div>
-          <div class="me_intro">
+          <div id="about" class="me_intro">
             <section class="me_intro_sec">
               <h3>My Intro</h3>
               <h1>About Me</h1>
@@ -117,7 +117,7 @@
           </div>
         </article>
       </section>
-      <section class="stack">
+      <section id="tools" class="stack">
         <article>
           <h1 class="stack_h1">My stack and tools</h1>
           <div class="grid_container">
@@ -167,7 +167,7 @@
           </div>
         </article>
       </section>
-      <section class="projet_sec">
+      <section id="projects" class="projet_sec">
         <h1 class="stack_h1">My Projects</h1>
         <div class="project_container">
           <div class="card">
@@ -204,7 +204,9 @@
           </div>
         </div>
       </section>
-      <section class="contact">
+      <section id="contact" class="contact">
+        <h1 class="stack_h1">Get in touch</h1>
+
         <div class="contact_container">
           <section>
             <form action="#">

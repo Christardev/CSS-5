@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+  scrollbar-color: #2eac6d;
+}
 * {
   margin: 0;
   padding: 0;
