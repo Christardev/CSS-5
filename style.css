@@ -47,7 +47,7 @@ body {
   position: relative;
   grid-template-columns: 2fr 1fr;
   background-color: #2eac6d;
-  /* padding-top: 5rem; */
+  padding-top: 5rem;
 }
 /* .about_text {
   display: grid;
@@ -447,4 +447,237 @@ footer {
   background-color: white;
   padding: 5px;
   border-radius: 50%;
+}
+
+/* Responsive breakpoints */
+@media (max-width: 1200px) {
+  * {
+    /* margin: 3rem; */
+  }
+  .about {
+    padding-top: 2rem;
+  }
+  .about_img img,
+  .card_image img {
+    width: 320px;
+  }
+
+  .project_container {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .contact_container {
+    padding: 3rem 6rem;
+  }
+
+  .grid_container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  .header_nav {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .header_nav-ul {
+    gap: 0.8rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .about {
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 1rem;
+  }
+
+  .about_text {
+    padding: 3rem;
+  }
+
+  .round_section {
+    width: 80%;
+    left: 10%;
+  }
+
+  .me {
+    padding: 3rem 2rem;
+  }
+
+  .project_container {
+    gap: 15px;
+  }
+
+  .contact_container {
+    padding: 3rem 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .about_text {
+    padding: 2rem;
+  }
+
+  .about_img {
+    display: flex;
+    justify-content: center;
+  }
+
+  .about_img img {
+    position: static;
+    width: 100%;
+    max-width: 360px;
+  }
+
+  .round_section {
+    position: static;
+    margin: 1rem auto 0;
+    width: calc(100% - 2rem);
+  }
+
+  .me {
+    flex-direction: column;
+    padding: 2rem 1rem;
+  }
+
+  .me_profile,
+  .me_profile img {
+    width: 100%;
+  }
+
+  .me_intro {
+    padding: 2rem 0;
+  }
+
+  .project_container,
+  .contact_container {
+    grid-template-columns: 1fr;
+  }
+
+  .contact_container {
+    padding: 2rem 1.5rem;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .card_image img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .header_nav {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .header_nav-ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.6rem;
+    margin: 1rem 0 0 0;
+  }
+
+  .about_text {
+    padding: 1.5rem;
+  }
+
+  .about_text-hi,
+  .about_text-job,
+  .about_text-name {
+    text-align: left;
+  }
+
+  .about_text-name {
+    font-size: 28px;
+    text-align: left;
+  }
+
+  .about_text-job {
+    font-size: 18px;
+    text-align: left;
+  }
+
+  .about_text-p {
+    font-size: 14px;
+    text-align: left;
+    width: 300px;
+  }
+  .about_img {
+    flex-direction: column;
+  }
+  .header_nav {
+    flex-direction: column;
+  }
+  .header_nav-logo {
+    display: none;
+  }
+
+  .flex {
+    text-align: left;
+    flex-direction: column;
+    justify-content: start;
+  }
+  .me_profile img {
+    display: none;
+  }
+  body,
+  header,
+  nav,
+  main,
+  footer {
+    width: 412px;
+  }
+
+  .btns {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    font-size: 16px;
+    width: fit-content;
+  }
+
+  .round_section {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .contact_container {
+    padding: 1.5rem 1rem;
+    gap: 20px;
+  }
+
+  .footer_grid {
+    grid-template-columns: 1fr;
+  }
+  .projet_sec {
+    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .card_image img,
+  button {
+    width: 300px;
+  }
+  .p {
+    font-size: 10px;
+  }
+  .round_section {
+    flex-direction: column;
+    border-radius: 0;
+    align-items: normal;
+    width: 412;
+  }
 }
