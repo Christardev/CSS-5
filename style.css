@@ -87,7 +87,7 @@ body {
 .about_text-p {
   font-weight: 400;
   font-size: 16px;
-  padding: 0.5rem;
+  padding: 0.5rem 0;
 }
 .about_text-btn {
   padding: 10px 20px;
@@ -100,6 +100,10 @@ body {
 .contact_btn {
   border: 2px solid aliceblue;
   background-color: #2eac6d;
+}
+.contact_btn:hover {
+  border: 2px solid aliceblue;
+  background-color: #27d880;
 }
 .btns {
   margin-top: 0.5rem;
@@ -159,6 +163,7 @@ body {
 }
 .me {
   display: flex;
+  align-items: center;
   padding: 5rem;
 }
 .me_profile {
@@ -175,7 +180,7 @@ body {
 }
 .me_intro_sec {
   display: grid;
-  gap: 7px;
+  gap: 0 7px;
 }
 .me_intro_sec h3 {
   color: #1f9cf0;
@@ -352,6 +357,12 @@ body {
   border: 0;
   border-radius: 8px;
 }
+.card button:hover {
+  padding: 10px;
+  background-color: #27d880;
+  border: 0;
+  border-radius: 8px;
+}
 .project_container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -401,6 +412,15 @@ input {
   background-color: #2eac6d;
   font-size: 14px;
 }
+.send_btn:hover {
+  padding: 10px 12px;
+  width: fit-content;
+  border-radius: 6px;
+  border-color: #15894f;
+  border: 0;
+  background-color: #27d880;
+  font-size: 14px;
+}
 .call {
   display: grid;
   grid-template-columns: 50px 1fr;
@@ -442,9 +462,9 @@ footer {
 .list_icons {
 }
 .icons_list {
-  width: 30px;
-  background-color: white;
-  padding: 5px;
+  width: 25px;
+  background-color: #d5ede1;
+  padding: 10px;
   border-radius: 50%;
 }
 
