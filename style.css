@@ -15,10 +15,10 @@ body {
   width: 1274px;
 }
 .header {
+  background-color: aliceblue;
 }
 
 .header_nav {
-  background-color: aliceblue;
   display: flex;
   justify-content: space-between;
   padding: 1.5rem;
