@@ -131,6 +131,7 @@ body {
   left: 20%;
   bottom: -1.6rem;
   text-align: center;
+  box-shadow: 3px 6px 6px rgb(181, 210, 235);
 }
 .flex {
   display: grid;
@@ -268,6 +269,7 @@ body {
   padding: 20px;
   margin: auto;
   border-radius: 12px;
+  box-shadow: 3px 6px 6px rgba(181, 210, 235, 0.493);
 }
 .flex_container {
   display: flex;
@@ -470,6 +472,12 @@ footer {
   background-color: white;
   padding: 10px;
   border-radius: 50%;
+}
+.bi {
+  /* background-color: white;
+  padding: 15px; */
+  border-radius: 50%;
+  color: aliceblue;
 }
 .up_icon img {
   position: fixed;
