@@ -366,7 +366,7 @@ body {
 .project_container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
+  gap: 0 20px;
 }
 .contact_container {
   padding: 3rem 12rem;
@@ -469,8 +469,8 @@ footer {
 }
 .up_icon img {
   position: fixed;
-  right: 1rem;
-  bottom: 1rem;
+  right: 0.5rem;
+  bottom: 2rem;
   width: 90px;
 }
 
