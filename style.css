@@ -51,7 +51,7 @@ body {
   position: relative;
   grid-template-columns: 2fr 1fr;
   background-color: #2eac6d;
-  padding-top: 5rem;
+  padding-top: 3rem;
 }
 /* .about_text {
   display: grid;
