@@ -513,10 +513,15 @@ footer {
   }
   .about {
     padding-top: 2rem;
+    margin: 0 auto;
   }
   .about_img img,
   .card_image img {
     width: 320px;
+  }
+  .about_img img {
+    position: relative;
+    width: 400px;
   }
 
   .project_container {
@@ -551,13 +556,12 @@ footer {
   }
 
   .about_text {
-    display: none;
     padding: 1rem;
   }
 
   .round_section {
     width: 80%;
-    left: 10%;
+    /* left: 10%; */
   }
 
   .me {
@@ -637,13 +641,13 @@ footer {
   .round_section {
     display: none;
   }
-  
+
   .me_profile,
   .me_profile img {
     width: 300px;
     height: 300px;
   }
-  .me_profile{
+  .me_profile {
     position: relative;
   }
   .about {
