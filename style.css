@@ -156,7 +156,7 @@ body {
   height: 40px;
   position: absolute;
   top: 10px;
-  left: 300px;
+  left: 320px;
 }
 
 .line_2 {
@@ -165,7 +165,7 @@ body {
   height: 40px;
   position: absolute;
   top: 10px;
-  right: 290px;
+  right: 300px;
 }
 .sec_me {
   background-color: white;
@@ -228,6 +228,7 @@ body {
   background-color: #2eac6d;
 }
 .description {
+  margin-top: 5px;
   display: grid;
   gap: 3px;
 }
