@@ -158,6 +158,7 @@ body {
   top: 10px;
   left: 300px;
 }
+
 .line_2 {
   background-color: #1f9cf0;
   width: 2px;
@@ -221,7 +222,6 @@ body {
   bottom: -0.5rem;
   left: -0.5rem;
 }
-
 .lines_2 {
   width: 2px;
   height: 70px;
@@ -538,6 +538,10 @@ footer {
 }
 
 @media (max-width: 992px) {
+  .line_1,
+  .line_2 {
+    display: none;
+  }
   .header_nav {
     flex-wrap: wrap;
     gap: 1rem;
@@ -578,6 +582,10 @@ footer {
 }
 
 @media (max-width: 768px) {
+  .line_1,
+  .line_2 {
+    display: none;
+  }
   .about {
     display: grid;
     grid-template-columns: 1fr;
@@ -585,7 +593,7 @@ footer {
   }
 
   .about_text {
-    padding: 2rem;
+    padding: 5rem;
   }
 
   .about_img {
@@ -597,22 +605,40 @@ footer {
     position: static;
     width: 100%;
     max-width: 360px;
+    display: none;
   }
-
+  .header_nav-logo {
+    width: 2.5rem;
+    margin: 0 1rem;
+    display: none;
+  }
+  .up_icon img {
+    position: fixed;
+    right: 0.5rem;
+    bottom: 0;
+    width: 90px;
+    display: none;
+  }
+  .header_nav-ul {
+    gap: 10px;
+    flex: 1;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
   .round_section {
-    position: static;
+    /* position: static; */
     margin: 1rem auto 0;
     width: calc(100% - 2rem);
   }
 
   .me {
     flex-direction: column;
-    padding: 2rem 1rem;
+    /* padding: 2rem 1rem; */
   }
 
   .me_profile,
   .me_profile img {
-    width: 100%;
+    /* width: 100%; */
   }
 
   .me_intro {
@@ -621,6 +647,10 @@ footer {
 
   .project_container,
   .contact_container {
+    grid-template-columns: 1fr;
+  }
+
+  .project_container {
     grid-template-columns: 1fr;
   }
 
@@ -638,6 +668,10 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
+  .line_1,
+  .line_2 {
+    display: none;
+  }
   .round_section {
     display: none;
   }
