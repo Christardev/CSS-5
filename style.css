@@ -43,7 +43,7 @@ body {
 }
 .header_nav-ul li a:hover {
   text-decoration: none;
-  color: #187ce8;
+  color: #2eac6d;
 }
 .about {
   width: 100%;
@@ -151,7 +151,7 @@ body {
   text-align: left;
 }
 .line_1 {
-  background-color: #1f9cf0;
+  background-color: #2eac6d;
   width: 2px;
   height: 40px;
   position: absolute;
@@ -160,7 +160,7 @@ body {
 }
 
 .line_2 {
-  background-color: #1f9cf0;
+  background-color: #2eac6d;
   width: 2px;
   height: 40px;
   position: absolute;
@@ -192,10 +192,10 @@ body {
   gap: 0 7px;
 }
 .me_intro_sec h3 {
-  color: #1f9cf0;
+  color: #2eac6d;
 }
 .highlight_color {
-  color: #1f9cf0;
+  color: #2eac6d;
 }
 .me_intro_sec h1 {
 }
@@ -204,7 +204,7 @@ body {
 .lines {
   width: 70px;
   height: 2px;
-  background-color: #1f9cf0;
+  background-color: #2eac6d;
 }
 .top_a {
   top: -0.5rem;
@@ -225,7 +225,17 @@ body {
 .lines_2 {
   width: 2px;
   height: 70px;
-  background-color: #1f9cf0;
+  background-color: #2eac6d;
+}
+.description {
+  display: grid;
+  gap: 3px;
+}
+.description p {
+  background-color: #2eac6d1a;
+  width: 250px;
+  padding: 3px;
+  
 }
 
 .top_a_2 {
