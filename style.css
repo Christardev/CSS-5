@@ -236,7 +236,6 @@ body {
   background-color: #2eac6d1a;
   width: 250px;
   padding: 3px;
-  
 }
 
 .top_a_2 {
@@ -644,6 +643,8 @@ footer {
 
   .me {
     flex-direction: column;
+    padding: 100px;
+
     /* padding: 2rem 1rem; */
   }
 
@@ -821,5 +822,12 @@ footer {
   }
   .grid_container {
     grid-template-columns: 1fr;
+  }
+
+  .me {
+    flex-direction: column;
+    padding: 100px;
+
+    /* padding: 2rem 1rem; */
   }
 }
