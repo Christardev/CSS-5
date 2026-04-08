@@ -518,6 +518,9 @@ footer {
   bottom: 0;
   width: 90px;
 }
+#btn_blue {
+  background-color: #0f48f2;
+}
 
 /* Responsive breakpoints */
 @media (max-width: 1200px) {
