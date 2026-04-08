@@ -521,6 +521,9 @@ footer {
 #btn_blue {
   background-color: #0f48f2;
 }
+#btn_blue:hover {
+  background-color: #3868f8;
+}
 
 /* Responsive breakpoints */
 @media (max-width: 1200px) {
